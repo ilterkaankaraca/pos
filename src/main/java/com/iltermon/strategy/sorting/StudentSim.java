@@ -17,14 +17,14 @@ public class StudentSim {
 
         // sort the list by numbers and print it.
         numberSorter.sort(students);
-        System.out.println("List sorted by number");
+        System.out.println("List is sorted by number");
         for (Student student : students) {
             System.out.println(student.toString());
         }
         
         // sort the list by names and print it.
         nameSorter.sort(students);
-        System.out.println("\nList sorted by name");
+        System.out.println("\nList is sorted by name");
         for (Student student : students) {
             System.out.println(student.toString());
         }
