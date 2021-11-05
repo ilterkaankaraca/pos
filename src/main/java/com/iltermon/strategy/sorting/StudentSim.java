@@ -6,8 +6,8 @@ import java.util.List;
 public class StudentSim {
     public static void main(String[] args) {
         List<Student> students = new ArrayList<>();
-        NumberSorter numberSorter = new NumberSorter();
-        NameSorter nameSorter = new NameSorter();
+        Sorter numberSorter = new NumberSorter();
+        Sorter nameSorter = new NameSorter();
         // add students to the list
         students.add(new Student(000003, "B"));
         students.add(new Student(000001, "C"));
