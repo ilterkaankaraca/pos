@@ -3,14 +3,12 @@ package bankaccount;
 public class DepositCommand implements Command {
     private BankAccount bankAccount;
     private double amount;
-    private boolean executable;
-    private boolean undoable;
+    
 
     public DepositCommand(BankAccount bankAccount, double amount) {
         this.bankAccount = bankAccount;
         this.amount = amount;
-        this.executable = true;
-        this.undoable = false;
+
     }
 
     @Override

@@ -2,13 +2,11 @@ package bankaccount;
 public class WithDrawalCommand implements Command {
     private BankAccount bankAccount;
     private double amount;
-    private boolean executable;
-    private boolean undoable;
+
     public WithDrawalCommand(BankAccount bankAccount, double amount) {
         this.bankAccount = bankAccount;
         this.amount = amount;
-        this.executable = true;
-        this.undoable = false;
+
     }
     @Override
     public void execute() {
@@ -20,7 +18,7 @@ public class WithDrawalCommand implements Command {
             bankAccount.setBalance(bankAccount.getBalance() - amount);
             System.out.println("Withdrawal successful");
             System.out.println("New balance: " + bankAccount.getBalance());
-            this.executable = false;
+
         }
     }
 
