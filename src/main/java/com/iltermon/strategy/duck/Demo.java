@@ -1,5 +1,5 @@
 package duck;
-public class MiniDuckSimulator {
+public class Demo {
     public static void main(String[] args) {
         Duck hisDuck = new HisDuck();
 

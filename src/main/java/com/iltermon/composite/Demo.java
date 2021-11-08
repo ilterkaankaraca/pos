@@ -1,4 +1,4 @@
-public class CompositeDemo {
+public class Demo {
     public static void main(String[] args) {
         ArithmeticExpr const1 = new Const(10);
         ArithmeticExpr const2 = new Const(20);

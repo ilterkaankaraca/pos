@@ -1,5 +1,5 @@
 package bankaccount;
-public class CommandSim {
+public class Demo {
     public static void main(String[] args) {
         BankAccount account = new BankAccount(1000);
         Command deposit = new DepositCommand(account,500.0);

@@ -1,4 +1,4 @@
-public class Simulation {
+public class Demo {
     public static void main(String[] args) {
         TemplateClass example1 = new SubClass1();
         TemplateClass example2 = new SubClass2();

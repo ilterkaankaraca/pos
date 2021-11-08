@@ -3,7 +3,7 @@ package sorting;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StudentSim {
+public class Demo {
     public static void main(String[] args) {
         List<Student> students = new ArrayList<>();
         Sorter numberSorter = new NumberSorter();
