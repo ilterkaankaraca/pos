@@ -11,5 +11,4 @@ public class SubClass2 extends TemplateClass{
     public void primitiveOperation3() {
         System.out.println("SubClass2.primitiveOperation3()");
     }
-    
 }
