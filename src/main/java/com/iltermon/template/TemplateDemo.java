@@ -1,4 +1,4 @@
-public class Demo {
+public class TemplateDemo {
     public static void main(String[] args) {
         TemplateClass example1 = new SubClass1();
         TemplateClass example2 = new SubClass2();
@@ -10,7 +10,6 @@ public class Demo {
 
         System.out.println("example2");
         example2.templateMethod();
-
     }
 
 }
