@@ -1,4 +1,4 @@
-package menu; 
+package com.iltermon.composite.menu; 
 
 public class MenuTestDrive {
 	public static void main(String args[]) {

@@ -1,3 +1,5 @@
+package com.iltermon.template;
+
 public abstract class TemplateClass {
     // abstract class to keep the template
     public final void templateMethod() {

@@ -1,4 +1,4 @@
-package sorting;
+package com.iltermon.strategy.sorting;
 
 import java.util.List;
 

@@ -1,3 +1,5 @@
+package com.iltermon.template;
+
 public class TemplateDemo {
     public static void main(String[] args) {
         TemplateClass example1 = new SubClass1();

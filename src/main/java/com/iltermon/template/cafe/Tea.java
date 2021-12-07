@@ -1,5 +1,4 @@
-package cafe;
-
+package com.iltermon.template.cafe;
 public class Tea extends CaffeineBeverage {
 
     @Override

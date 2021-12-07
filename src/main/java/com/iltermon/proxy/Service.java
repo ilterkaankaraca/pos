@@ -1,3 +1,5 @@
+package com.iltermon.proxy;
+
 public class Service implements ServiceInterface{
 
     String data;

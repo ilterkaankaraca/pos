@@ -1,4 +1,4 @@
-package bankaccount;
+package com.iltermon.command.bankaccount;
 public class Demo {
     public static void main(String[] args) {
         BankAccount account = new BankAccount(1000);

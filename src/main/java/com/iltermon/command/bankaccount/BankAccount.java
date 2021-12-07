@@ -1,4 +1,4 @@
-package bankaccount;
+package com.iltermon.command.bankaccount;
 
 public class BankAccount {
     private double balance;

@@ -1,3 +1,5 @@
+package com.iltermon.composite;
+
 import java.util.HashMap;
 
 public class Environment {

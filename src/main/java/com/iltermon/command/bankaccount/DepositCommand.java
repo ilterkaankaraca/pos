@@ -1,4 +1,4 @@
-package bankaccount;
+package com.iltermon.command.bankaccount;
 
 public class DepositCommand implements Command {
     private BankAccount bankAccount;

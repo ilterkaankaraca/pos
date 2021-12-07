@@ -1,4 +1,4 @@
-package menuiterator;
+package com.iltermon.composite.menuiterator;
  
 import java.util.Iterator;
   

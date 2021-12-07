@@ -1,4 +1,4 @@
-package bankaccount;
+package com.iltermon.command.bankaccount;
 public class WithDrawalCommand implements Command {
     private BankAccount bankAccount;
     private double amount;

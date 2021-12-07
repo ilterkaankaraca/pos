@@ -1,4 +1,4 @@
-package cafe;
+package com.iltermon.template.cafe;
 
 public abstract class CaffeineBeverage {
     public final void prepareRecipe() {

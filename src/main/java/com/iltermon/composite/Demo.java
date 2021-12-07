@@ -1,3 +1,5 @@
+package com.iltermon.composite;
+
 public class Demo {
     public static void main(String[] args) {
         ArithmeticExpr const1 = new Const(10);

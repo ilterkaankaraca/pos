@@ -1,3 +1,5 @@
+package com.iltermon.composite;
+
 public class Prod implements ArithmeticExpr{ // composite
     ArithmeticExpr left;
     ArithmeticExpr right;

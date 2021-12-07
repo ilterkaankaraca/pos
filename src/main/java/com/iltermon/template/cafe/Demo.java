@@ -1,4 +1,4 @@
-package cafe;
+package com.iltermon.template.cafe;
 
 public class Demo {
     public static void main(String[] args) {

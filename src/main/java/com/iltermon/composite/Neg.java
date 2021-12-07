@@ -1,3 +1,5 @@
+package com.iltermon.composite;
+
 public class Neg implements ArithmeticExpr { //composite
     ArithmeticExpr expr; 
     public Neg(ArithmeticExpr expr) {

@@ -1,4 +1,4 @@
-package menu;
+package com.iltermon.composite.menu;
   
 public class Waitress {
 	MenuComponent allMenus;

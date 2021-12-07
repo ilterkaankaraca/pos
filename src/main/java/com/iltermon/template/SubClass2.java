@@ -1,3 +1,5 @@
+package com.iltermon.template;
+
 public class SubClass2 extends TemplateClass{
     @Override
     public void primitiveOperation1() {

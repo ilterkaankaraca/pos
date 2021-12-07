@@ -1,3 +1,5 @@
+package com.iltermon.composite;
+
 public class Var implements ArithmeticExpr{ // leaf
     String name;
 

@@ -1,4 +1,4 @@
-package menu;
+package com.iltermon.composite.menu;
 
 public abstract class MenuComponent {
    

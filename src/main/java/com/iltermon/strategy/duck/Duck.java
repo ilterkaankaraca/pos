@@ -1,4 +1,4 @@
-package duck;
+package com.iltermon.strategy.duck;
 public abstract class Duck {
 	FlyBehavior flyBehavior;
 	QuackBehavior quackBehavior;

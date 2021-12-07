@@ -1,3 +1,5 @@
+package com.iltermon.composite;
+
 public class Sum implements ArithmeticExpr{ // composite
     ArithmeticExpr left;
     ArithmeticExpr right;

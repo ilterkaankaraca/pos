@@ -1,3 +1,5 @@
+package com.iltermon.proxy;
+
 public class Proxy implements ServiceInterface {
     ServiceInterface service;
     String stringCache;

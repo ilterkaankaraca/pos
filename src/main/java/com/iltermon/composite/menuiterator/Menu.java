@@ -1,4 +1,4 @@
-package menuiterator;
+package com.iltermon.composite.menuiterator;
 
 import java.util.Iterator;
 import java.util.ArrayList;
@@ -14,10 +14,12 @@ public class Menu extends MenuComponent {
 		this.description = description;
 	}
  
+	@Override
 	public void add(MenuComponent menuComponent) {
 		menuComponents.add(menuComponent);
 	}
  
+	@Override
 	public void remove(MenuComponent menuComponent) {
 		menuComponents.remove(menuComponent);
 	}
@@ -26,6 +28,7 @@ public class Menu extends MenuComponent {
 		return menuComponents.get(i);
 	}
  
+	@Override
 	public String getName() {
 		return name;
 	}

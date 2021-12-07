@@ -1,3 +1,5 @@
+package com.iltermon.composite;
+
 public class Const implements ArithmeticExpr { //leaf
     private int value;
 

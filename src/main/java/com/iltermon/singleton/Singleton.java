@@ -1,3 +1,5 @@
+package com.iltermon.singleton;
+
 public class Singleton {
     private static volatile Singleton instance;
     private Singleton() {

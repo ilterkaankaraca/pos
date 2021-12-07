@@ -1,4 +1,4 @@
-package duck;
+package com.iltermon.strategy.duck;
 public class HisDuck extends Duck {
     public HisDuck() {
         quackBehavior = new Quack();

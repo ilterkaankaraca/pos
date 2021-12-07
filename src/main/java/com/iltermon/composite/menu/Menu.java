@@ -1,4 +1,4 @@
-package menu;
+package com.iltermon.composite.menu;
 
 import java.util.Iterator;
 import java.util.ArrayList;
