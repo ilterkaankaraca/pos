@@ -1,5 +1,5 @@
 package com.iltermon.strategy;
 
-public class Strategy {
-    //todo: implement
+public interface Strategy {
+    public void algorithm();
 }
