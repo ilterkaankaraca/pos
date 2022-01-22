@@ -10,10 +10,6 @@ public class SubClass1 extends TemplateClass{
         System.out.println("Subclass1.primitiveOperation2()");
     }
     @Override
-    public void primitiveOperation3() {
-        System.out.println("Subclass1.primitiveOperation3()");
-    }
-    @Override
     public boolean doPrimitiveOperation3() {
         return false;
     }

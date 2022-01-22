@@ -7,7 +7,12 @@ public class NullIterator implements Iterator<MenuComponent> {
 	public MenuComponent next() {
 		return null;
 	}
-  
+
+	@Override
+	public void remove() {
+		System.out.println("NullIterator.remove()");
+	}
+
 	public boolean hasNext() {
 		return false;
 	}

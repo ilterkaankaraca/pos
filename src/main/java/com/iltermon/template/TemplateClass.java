@@ -23,5 +23,7 @@ public abstract class TemplateClass {
 
     public abstract void primitiveOperation2();
 
-    public abstract void primitiveOperation3(); // this is optinal
+    public void primitiveOperation3(){
+        System.out.println("TemplateClass.primitiveOperation3()");
+    }
 }
