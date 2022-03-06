@@ -4,6 +4,7 @@ package com.iltermon.mvc;
 import java.util.Scanner;
 
 public class Controller {
+
     private Model model;
 
     public Controller(Model model, ConsoleView view) {

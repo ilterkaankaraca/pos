@@ -14,7 +14,7 @@ public class Subject {
     }
 
     private String state;
-    private List<Observer> observerArrayList = new ArrayList<Observer>();
+    private List<Observer> observerArrayList = new ArrayList<>();
 
     public void attach(Observer observer) {
         observerArrayList.add(observer);
@@ -26,7 +26,7 @@ public class Subject {
 
     public void notifyObservers(String state) {
         for (Observer o : observerArrayList) {
-            o.update(state);
+            o.notify(state);
         }
     }
 }

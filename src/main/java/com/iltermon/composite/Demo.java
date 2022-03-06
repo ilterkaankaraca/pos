@@ -10,6 +10,7 @@ public class Demo {
         System.out.println("Sum :" + sum.eval().toString());
         System.out.println("Prod :" + prod.eval().toString());
 
+        // (x + −(4 ∗ 7)) 
         ArithmeticExpr x = new Var("x");
         ArithmeticExpr n1 = new Const(4);
         ArithmeticExpr n2 = new Const(7);
